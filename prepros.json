@@ -1,0 +1,560 @@
+{
+  "id": "406674c2",
+  "cfgVersion": 1,
+  "name": "bootstrap-theme",
+  "files": {
+    "2e8f9ea2": {
+      "id": "2e8f9ea2",
+      "pid": "406674c2",
+      "name": "README.md",
+      "input": "README.md",
+      "customOutput": false,
+      "type": "Md",
+      "config": {
+        "autoCompile": false,
+        "sanitize": false,
+        "gfm": false
+      }
+    },
+    "9349adcb": {
+      "id": "9349adcb",
+      "pid": "406674c2",
+      "name": "boottheme.js",
+      "input": "boottheme\\js\\boottheme.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": true
+      }
+    },
+    "c2140119": {
+      "id": "c2140119",
+      "pid": "406674c2",
+      "name": "boottheme.less",
+      "input": "boottheme\\less\\boottheme.less",
+      "customOutput": false,
+      "type": "Less",
+      "config": {
+        "autoCompile": true,
+        "compress": true,
+        "sourcemaps": false,
+        "cleancss": false,
+        "strictMath": false,
+        "strictUnits": false,
+        "autoprefixer": false
+      }
+    },
+    "a6d45fa0": {
+      "id": "a6d45fa0",
+      "pid": "406674c2",
+      "name": "theme.less",
+      "input": "boottheme\\less\\theme.less",
+      "customOutput": false,
+      "type": "Less",
+      "config": {
+        "autoCompile": false,
+        "compress": false,
+        "sourcemaps": false,
+        "cleancss": false,
+        "strictMath": false,
+        "strictUnits": false,
+        "autoprefixer": false
+      }
+    },
+    "251e0f3e": {
+      "id": "251e0f3e",
+      "pid": "406674c2",
+      "name": "bootstrap.js",
+      "input": "boottheme\\js\\bootstrap.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "b6ad8ce7": {
+      "id": "b6ad8ce7",
+      "pid": "406674c2",
+      "name": "jquery-2.1.0-beta2.js",
+      "input": "boottheme\\js\\jquery-2.1.0-beta2.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "6d284965": {
+      "id": "6d284965",
+      "pid": "406674c2",
+      "name": "bootstrap.less",
+      "input": "boottheme\\less\\bootstrap.less",
+      "customOutput": false,
+      "type": "Less",
+      "config": {
+        "autoCompile": true,
+        "compress": false,
+        "sourcemaps": false,
+        "cleancss": false,
+        "strictMath": false,
+        "strictUnits": false,
+        "autoprefixer": false
+      }
+    }
+  },
+  "imports": {
+    "4373b62b": {
+      "id": "4373b62b",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\variables.less",
+      "parents": [
+        "a6d45fa0",
+        "6d284965"
+      ]
+    },
+    "3616843e": {
+      "id": "3616843e",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\mixins.less",
+      "parents": [
+        "a6d45fa0",
+        "6d284965"
+      ]
+    },
+    "011992e1": {
+      "id": "011992e1",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\normalize.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "5bdb693c": {
+      "id": "5bdb693c",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\print.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "d55b6793": {
+      "id": "d55b6793",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\scaffolding.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "2f835279": {
+      "id": "2f835279",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\type.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "0be242ac": {
+      "id": "0be242ac",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\code.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "73f821ee": {
+      "id": "73f821ee",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\grid.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "ffc686ae": {
+      "id": "ffc686ae",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\tables.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "827f2685": {
+      "id": "827f2685",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\forms.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "b236092b": {
+      "id": "b236092b",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\buttons.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "d40ad593": {
+      "id": "d40ad593",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\component-animations.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "f1659a06": {
+      "id": "f1659a06",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\glyphicons.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "72fe0dc6": {
+      "id": "72fe0dc6",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\dropdowns.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "8e8e7819": {
+      "id": "8e8e7819",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\button-groups.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "9ee9c101": {
+      "id": "9ee9c101",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\input-groups.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "377cfb3c": {
+      "id": "377cfb3c",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\navs.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "a39bcc44": {
+      "id": "a39bcc44",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\navbar.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "d9658e46": {
+      "id": "d9658e46",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\breadcrumbs.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "4fd4d3b5": {
+      "id": "4fd4d3b5",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\pagination.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "f884f9c4": {
+      "id": "f884f9c4",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\pager.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "caf4edf1": {
+      "id": "caf4edf1",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\labels.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "9e6757be": {
+      "id": "9e6757be",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\badges.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "dbc8209f": {
+      "id": "dbc8209f",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\jumbotron.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "d8de322e": {
+      "id": "d8de322e",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\thumbnails.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "8c1ff96d": {
+      "id": "8c1ff96d",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\alerts.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "e381fd51": {
+      "id": "e381fd51",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\progress-bars.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "2bbf398a": {
+      "id": "2bbf398a",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\media.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "1d612502": {
+      "id": "1d612502",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\list-group.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "8156f772": {
+      "id": "8156f772",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\panels.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "ab2e9085": {
+      "id": "ab2e9085",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\wells.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "606746f7": {
+      "id": "606746f7",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\close.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "568052d1": {
+      "id": "568052d1",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\modals.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "2a744f36": {
+      "id": "2a744f36",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\tooltip.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "534f80b1": {
+      "id": "534f80b1",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\popovers.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "3626af4d": {
+      "id": "3626af4d",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\carousel.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "2ed0c1ba": {
+      "id": "2ed0c1ba",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\utilities.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "cf87ba0b": {
+      "id": "cf87ba0b",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\responsive-utilities.less",
+      "parents": [
+        "6d284965"
+      ]
+    },
+    "f6acc7ee": {
+      "id": "f6acc7ee",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\boottheme-variables.less",
+      "parents": [
+        "c2140119"
+      ]
+    },
+    "8f22e162": {
+      "id": "8f22e162",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\boottheme-grid.less",
+      "parents": [
+        "c2140119"
+      ]
+    },
+    "7d431da6": {
+      "id": "7d431da6",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\boottheme-page-header.less",
+      "parents": [
+        "c2140119"
+      ]
+    },
+    "feab65d3": {
+      "id": "feab65d3",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\boottheme-page-footer.less",
+      "parents": [
+        "c2140119"
+      ]
+    },
+    "786947fd": {
+      "id": "786947fd",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\boottheme-page-backtotop.less",
+      "parents": [
+        "c2140119"
+      ]
+    },
+    "dca8d565": {
+      "id": "dca8d565",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\boottheme-page-nav.less",
+      "parents": [
+        "c2140119"
+      ]
+    },
+    "e2590c33": {
+      "id": "e2590c33",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\boottheme-page-body.less",
+      "parents": [
+        "c2140119"
+      ]
+    },
+    "23d263f7": {
+      "id": "23d263f7",
+      "pid": "406674c2",
+      "path": "boottheme\\less\\boottheme-page-jumbotron.less",
+      "parents": [
+        "c2140119"
+      ]
+    }
+  },
+  "images": {
+    "596e3bc3": {
+      "id": "596e3bc3",
+      "pid": "406674c2",
+      "path": "boottheme\\images\\logo\\logo-1.png",
+      "size": 73166,
+      "name": "logo-1.png",
+      "type": "Png",
+      "initialSize": 73166,
+      "status": "NOT_OPTIMIZED"
+    },
+    "2a628033": {
+      "id": "2a628033",
+      "pid": "406674c2",
+      "path": "boottheme\\images\\background\\background-1.jpg",
+      "size": 441323,
+      "name": "background-1.jpg",
+      "type": "Jpg",
+      "initialSize": 441323,
+      "status": "NOT_OPTIMIZED"
+    },
+    "159c470f": {
+      "id": "159c470f",
+      "pid": "406674c2",
+      "path": "boottheme\\images\\background\\background-2.jpg",
+      "size": 216771,
+      "name": "background-2.jpg",
+      "type": "Jpg",
+      "initialSize": 216771,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ce41b530": {
+      "id": "ce41b530",
+      "pid": "406674c2",
+      "path": "boottheme\\images\\background\\background-3.jpg",
+      "size": 1177960,
+      "name": "background-3.jpg",
+      "type": "Jpg",
+      "initialSize": 1177960,
+      "status": "NOT_OPTIMIZED"
+    }
+  },
+  "config": {
+    "watch": true,
+    "liveRefresh": true,
+    "liveRefreshDelay": 0,
+    "filterPatterns": "",
+    "useCustomServer": false,
+    "customServerUrl": "",
+    "cssPath": "css/",
+    "jsPath": "js/",
+    "htmlPath": "html/",
+    "minJsPath": "min/",
+    "htmlExtension": ".html",
+    "cssPathType": "REPLACE_TYPE",
+    "htmlPathType": "REPLACE_TYPE",
+    "jsPathType": "REPLACE_TYPE",
+    "minJsPathType": "RELATIVE_FILEDIR",
+    "htmlTypes": "jade, haml, slim, markdown, md",
+    "cssTypes": "less, sass, stylus, scss, styl",
+    "jsTypes": "coffee, coffeescript, coffeescripts, ls, livescript, livescripts",
+    "cssPreprocessorPath": "",
+    "htmlPreprocessorPath": "",
+    "jsPreprocessorPath": "",
+    "minJsPreprocessorPath": "",
+    "autoprefixerBrowsers": "",
+    "ftpHost": "",
+    "ftpPort": "21",
+    "ftpRemotePath": "",
+    "ftpIgnorePreprocessorFiles": true,
+    "ftpType": "FTP",
+    "ftpExcludePatterns": "",
+    "ftpPassword": "",
+    "ftpUsername": ""
+  }
+}

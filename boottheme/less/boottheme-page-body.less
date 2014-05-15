@@ -1,0 +1,46 @@
+/**
+ *  body.less
+ *
+ *  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries
+ *
+ *  avaliable queries:
+ *  [ only, not ] all, aural, braille, handheld, print, projection, screen, tty, tv, embossed
+ *
+ *  width, min-width, max-width
+ *  height, min-height, max-height
+ *  device-width, min-device-width, max-device-width
+ *  device-height, min-device-height, max-device-height
+ *  aspect-ratio, min-aspect-ratio, max-aspect-ratio
+ *  device-aspect-ratio, min-device-aspect-ratio, max-device-aspect-ratio
+ *  color, min-color, max-color
+ *  color-index, min-color-index, max-color-index
+ *  monochrome, min-monochrome, max-monochrome
+ *  resolution, min-resolution, max-resolution
+ *  scan, grid
+ *
+ *  @media (min-device-width: 640px) { ... }
+ *  @media screen and (device-aspect-ratio: 16/9) { ... }
+ *  @media (orientation:portrait) { ... }
+ *  @media (color) { // color screen }
+ *  @media (min-color-index: 256) { // Screen has at least 256 colors }
+ *  @media (monochrome) { // Screen is monochrome }
+ */
+ body {
+    /* ------------------------------------------------------------------------------------------ */
+    /* ------------------------------------------------------------------------------------------ */
+    @media screen and (max-width: 767px) {
+        /* -------------------------------------------------------------------------------------- */
+        overflow-y: scroll;
+        /* -------------------------------------------------------------------------------------- */
+    }
+    @media screen and (min-width: 768px) {
+        /* -------------------------------------------------------------------------------------- */
+        overflow-y: scroll;
+        background-color: @background;
+        /* -------------------------------------------------------------------------------------- */
+    }
+    @media print {
+        /* -------------------------------------------------------------------------------------- */
+        /* -------------------------------------------------------------------------------------- */
+    }
+}

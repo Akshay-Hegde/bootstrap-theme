@@ -1,0 +1,150 @@
+/**
+ *
+ * http://colorschemedesigner.com/
+ * http://lesscss.org/functions/
+ *
+ */
+ @gutter : 15px;
+
+/**/
+ @text : #222;
+ @background : #fff;
+
+/**/
+ @link : blue;
+ @link-background : transparent;
+ @link-hover : red;
+ @link-hover-background : transparent;
+ @link-visited : maroon;
+ @link-visited-background : transparent;
+
+/**/
+ @primary-darker : darken(@primary, 20%);
+ @primary-dark : darken(@primary, 13.5%);
+ @primary : #cc9933;
+ @primary-light : lighten(@primary, 13.5%);
+ @primary-lighter : lighten(@primary, 20%);
+ @primary-grayscale : greyscale(@primary);
+ @primary-contrast : contrast(@primary);
+
+/**/
+ @secondary-darker : darken(@secondary, 20%);
+ @secondary-dark : darken(@secondary, 13.5%);
+ @secondary : #1a1a1a;
+ @secondary-light : lighten(@secondary, 13.5%);
+ @secondary-lighter : lighten(@secondary, 20%);
+ @secondary-lightest : lighten(@secondary, 50%);
+ @secondary-grayscale : greyscale(@secondary);
+ @secondary-contrast : contrast(@secondary);
+
+/**/
+ @black : #000;
+
+/**/
+ @gray-darker: lighten(@black, 13.5%);
+ @gray-dark: lighten(@black, 20%);
+ @gray: lighten(@black, 33.5%);
+ @gray-light: lighten(@black, 60%);
+ @gray-lighter: lighten(@black, 93.5%);
+
+/**/
+ @line-xs : 1px;
+ @line-sm : 3px;
+ @line-md : 5px;
+ @line-lg : 10px;
+ @line-xl : 15px;
+
+/**
+ *
+ * header
+ *
+ */
+ @header-text : @text;
+ @header-background : @background;
+ @header-link : @link;
+ @header-link-background : @link-background;
+ @header-link-hover : @link-hover;
+ @header-link-hover-background : @link-hover-background;
+ @header-link-visited : @link-visited;
+ @header-link-visited-background : @link-visited-background;
+ @header-primary : @primary;
+ @header-secondary : @secondary;
+ @header-gutter : @gutter;
+
+/**
+ *
+ * nav
+ *
+ */
+ @nav-text : @text;
+ @nav-background : @background;
+ // level-1;
+ @level-one : @secondary;
+ @level-one-background : white;
+ @level-one-hover : @primary;
+ @level-one-hover-background : @secondary;
+ @level-one-active : @secondary;
+ @level-one-active-background : @primary;
+ @level-one-active-hover : @primary;
+ @level-one-active-hover-background : @secondary;
+ // level-2;
+ @level-two : @primary;
+ @level-two-background : transparent;
+ @level-two-hover : lighten(@primary, 10%);
+ @level-two-hover-background : transparent;
+ @level-two-active : @secondary;
+ @level-two-active-background : transparent;
+ @level-two-active-hover : @primary;
+ @level-two-active-hover-background : transparent;
+ @level-two-hr : lighten(@level-one-hover-background, 10%);
+ @level-two-header : greyscale(@primary);
+ //;
+ @nav-link : @secondary;
+ @nav-link-background : transparent;
+ @nav-link-hover : @link-hover;
+ @nav-link-hover-background : @link-hover-background;
+ @nav-link-visited : @link-visited;
+ @nav-link-visited-background : @link-visited-background;
+ @nav-primary : @primary;
+ @nav-secondary : @secondary;
+ @nav-gutter : @gutter;
+ //;
+ @nav-border : @secondary;
+
+/**
+  *
+  * jumbotron
+  *
+  */
+ @jumbotron-text : red;
+ @jumbotron-background : lighten(greyscale(@primary), 10%);
+
+/**
+ *
+ * footer
+ *
+ */
+ @footer-text : greyscale(@primary);
+ @footer-background : @secondary;
+ @footer-link : @link;
+ @footer-link-background : @link-background;
+ @footer-link-hover : @link-hover;
+ @footer-link-hover-background : @link-hover-background;
+ @footer-link-visited : @link-visited;
+ @footer-link-visited-background : @link-visited-background;
+ @footer-primary : @primary;
+ @footer-secondary : @secondary;
+ @footer-gutter : 2 * @gutter;
+ //;
+ @footer-hr : lighten(@secondary, 10%);
+ @footer-h4 : @primary;
+
+/**
+ *
+ * backtotop
+ *
+ */
+ @backtotop-text : @primary;
+ @backtotop-background : @secondary;
+ @backtotop-right : @gutter;
+ @backtotop-bottom : @gutter;

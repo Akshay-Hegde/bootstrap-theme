@@ -1,0 +1,69 @@
+/**
+ *  body-backtotop.less
+ *
+ *  https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Media_queries
+ *
+ *  avaliable queries:
+ *  [ only, not ] all, aural, braille, handheld, print, projection, screen, tty, tv, embossed
+ *
+ *  width, min-width, max-width
+ *  height, min-height, max-height
+ *  device-width, min-device-width, max-device-width
+ *  device-height, min-device-height, max-device-height
+ *  aspect-ratio, min-aspect-ratio, max-aspect-ratio
+ *  device-aspect-ratio, min-device-aspect-ratio, max-device-aspect-ratio
+ *  color, min-color, max-color
+ *  color-index, min-color-index, max-color-index
+ *  monochrome, min-monochrome, max-monochrome
+ *  resolution, min-resolution, max-resolution
+ *  scan, grid
+ *
+ *  @media (min-device-width: 640px) { ... }
+ *  @media screen and (device-aspect-ratio: 16/9) { ... }
+ *  @media (orientation:portrait) { ... }
+ *  @media (color) { // color screen }
+ *  @media (min-color-index: 256) { // Screen has at least 256 colors }
+ *  @media (monochrome) { // Screen is monochrome }
+ */
+ .backtotop {
+    /* ------------------------------------------------------------------------------------------ */
+    /* rules for mobile vertical (0 x < infinity) */
+    /* ------------------------------------------------------------------------------------------ */
+    cursor : pointer;
+    position : fixed;
+    right : @backtotop-right;
+    bottom : @backtotop-bottom;
+    display : none;
+    //;
+    padding: 15px 18px !important;
+    border : @line-xs solid lighten(@backtotop-background, 10%);
+    border-radius: 25px !important;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    //;
+    color : @backtotop-text;
+    background-color: @backtotop-background;
+    &:hover {
+        color : @backtotop-background;
+        background-color: @backtotop-text;
+        border : @line-xs solid darken(@backtotop-text, 10%);
+    }
+    /* ------------------------------------------------------------------------------------------ */
+    @media screen and (max-width: 767px) {
+        /* -------------------------------------------------------------------------------------- */
+        /* (x < 767) */
+        /* -------------------------------------------------------------------------------------- */
+        /* -------------------------------------------------------------------------------------- */
+    }
+    @media screen and (min-width: 768px) {
+        /* -------------------------------------------------------------------------------------- */
+        /* (x > 767) */
+        /* -------------------------------------------------------------------------------------- */
+        /* -------------------------------------------------------------------------------------- */
+    }
+    @media print {
+        /* -------------------------------------------------------------------------------------- */
+        /* rules for print */
+        /* -------------------------------------------------------------------------------------- */
+    }
+}
