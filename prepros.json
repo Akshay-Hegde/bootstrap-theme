@@ -108,6 +108,204 @@
         "strictUnits": false,
         "autoprefixer": false
       }
+    },
+    "bf867bd8": {
+      "id": "bf867bd8",
+      "pid": "406674c2",
+      "name": "jquery.themepunch.plugins.js",
+      "input": "bootplugs\\revolution-slider\\js\\jquery.themepunch.plugins.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "af41ec3c": {
+      "id": "af41ec3c",
+      "pid": "406674c2",
+      "name": "jquery.themepunch.revolution.js",
+      "input": "bootplugs\\revolution-slider\\js\\jquery.themepunch.revolution.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "b1725f36": {
+      "id": "b1725f36",
+      "pid": "406674c2",
+      "name": "jquery.themepunch.revolution.js",
+      "input": "bootplugs\\rs-plugin\\js\\jquery.themepunch.revolution.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "0ab1ad2b": {
+      "id": "0ab1ad2b",
+      "pid": "406674c2",
+      "name": "jquery.themepunch.plugins.js",
+      "input": "bootplugs\\rs-plugin\\js\\jquery.themepunch.plugins.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "f6b6c3e6": {
+      "id": "f6b6c3e6",
+      "pid": "406674c2",
+      "name": "jquery.slides.coffee",
+      "input": "bootplugs\\slider-slidesjs\\jquery.slides.coffee",
+      "customOutput": false,
+      "type": "Coffee",
+      "config": {
+        "autoCompile": true,
+        "bare": false,
+        "uglify": false,
+        "mangle": true,
+        "iced": false,
+        "sourcemaps": false
+      }
+    },
+    "07053b9a": {
+      "id": "07053b9a",
+      "pid": "406674c2",
+      "name": "jquery.slides.js",
+      "input": "bootplugs\\slider-slidesjs\\jquery.slides.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "1dd59c73": {
+      "id": "1dd59c73",
+      "pid": "406674c2",
+      "name": "video.js",
+      "input": "bootplugs\\rs-plugin\\videojs\\video.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "6ecb866f": {
+      "id": "6ecb866f",
+      "pid": "406674c2",
+      "name": "jquery.nivo.slider.pack.js",
+      "input": "layout-html\\nivo-slider\\jquery.nivo.slider.pack.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "293be7ee": {
+      "id": "293be7ee",
+      "pid": "406674c2",
+      "name": "jquery.nivo.slider.js",
+      "input": "layout-html\\nivo-slider\\jquery.nivo.slider.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "02105db7": {
+      "id": "02105db7",
+      "pid": "406674c2",
+      "name": "jquery-1.11.1.js",
+      "input": "boottheme\\js\\min\\jquery-1.11.1.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "30898b86": {
+      "id": "30898b86",
+      "pid": "406674c2",
+      "name": "jquery-1.11.1.js",
+      "input": "boottheme\\js\\jquery-1.11.1.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "10fca514": {
+      "id": "10fca514",
+      "pid": "406674c2",
+      "name": "jquery.nivo.slider-32.pack.js",
+      "input": "layout-html\\nivo-slider\\jquery.nivo.slider-32.pack.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "8e72cf40": {
+      "id": "8e72cf40",
+      "pid": "406674c2",
+      "name": "jquery.nivo.slider.js",
+      "input": "bootplugs\\nivo-slider\\jquery.nivo.slider.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
+    },
+    "ee2bfe6a": {
+      "id": "ee2bfe6a",
+      "pid": "406674c2",
+      "name": "jquery.nivo.slider.pack.js",
+      "input": "bootplugs\\nivo-slider\\jquery.nivo.slider.pack.js",
+      "customOutput": false,
+      "type": "Js",
+      "config": {
+        "autoCompile": true,
+        "uglify": true,
+        "mangle": true,
+        "sourcemaps": false
+      }
     }
   },
   "imports": {
