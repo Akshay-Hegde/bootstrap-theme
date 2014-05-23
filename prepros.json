@@ -78,20 +78,6 @@
         "sourcemaps": false
       }
     },
-    "b6ad8ce7": {
-      "id": "b6ad8ce7",
-      "pid": "406674c2",
-      "name": "jquery-2.1.0-beta2.js",
-      "input": "boottheme\\js\\jquery-2.1.0-beta2.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
     "6d284965": {
       "id": "6d284965",
       "pid": "406674c2",
@@ -109,167 +95,11 @@
         "autoprefixer": false
       }
     },
-    "bf867bd8": {
-      "id": "bf867bd8",
-      "pid": "406674c2",
-      "name": "jquery.themepunch.plugins.js",
-      "input": "bootplugs\\revolution-slider\\js\\jquery.themepunch.plugins.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
-    "af41ec3c": {
-      "id": "af41ec3c",
-      "pid": "406674c2",
-      "name": "jquery.themepunch.revolution.js",
-      "input": "bootplugs\\revolution-slider\\js\\jquery.themepunch.revolution.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
-    "b1725f36": {
-      "id": "b1725f36",
-      "pid": "406674c2",
-      "name": "jquery.themepunch.revolution.js",
-      "input": "bootplugs\\rs-plugin\\js\\jquery.themepunch.revolution.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
-    "0ab1ad2b": {
-      "id": "0ab1ad2b",
-      "pid": "406674c2",
-      "name": "jquery.themepunch.plugins.js",
-      "input": "bootplugs\\rs-plugin\\js\\jquery.themepunch.plugins.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
-    "f6b6c3e6": {
-      "id": "f6b6c3e6",
-      "pid": "406674c2",
-      "name": "jquery.slides.coffee",
-      "input": "bootplugs\\slider-slidesjs\\jquery.slides.coffee",
-      "customOutput": false,
-      "type": "Coffee",
-      "config": {
-        "autoCompile": true,
-        "bare": false,
-        "uglify": false,
-        "mangle": true,
-        "iced": false,
-        "sourcemaps": false
-      }
-    },
-    "07053b9a": {
-      "id": "07053b9a",
-      "pid": "406674c2",
-      "name": "jquery.slides.js",
-      "input": "bootplugs\\slider-slidesjs\\jquery.slides.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
-    "1dd59c73": {
-      "id": "1dd59c73",
-      "pid": "406674c2",
-      "name": "video.js",
-      "input": "bootplugs\\rs-plugin\\videojs\\video.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
-    "6ecb866f": {
-      "id": "6ecb866f",
-      "pid": "406674c2",
-      "name": "jquery.nivo.slider.pack.js",
-      "input": "layout-html\\nivo-slider\\jquery.nivo.slider.pack.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
-    "293be7ee": {
-      "id": "293be7ee",
-      "pid": "406674c2",
-      "name": "jquery.nivo.slider.js",
-      "input": "layout-html\\nivo-slider\\jquery.nivo.slider.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
-    "02105db7": {
-      "id": "02105db7",
-      "pid": "406674c2",
-      "name": "jquery-1.11.1.js",
-      "input": "boottheme\\js\\min\\jquery-1.11.1.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
     "30898b86": {
       "id": "30898b86",
       "pid": "406674c2",
       "name": "jquery-1.11.1.js",
       "input": "boottheme\\js\\jquery-1.11.1.js",
-      "customOutput": false,
-      "type": "Js",
-      "config": {
-        "autoCompile": true,
-        "uglify": true,
-        "mangle": true,
-        "sourcemaps": false
-      }
-    },
-    "10fca514": {
-      "id": "10fca514",
-      "pid": "406674c2",
-      "name": "jquery.nivo.slider-32.pack.js",
-      "input": "layout-html\\nivo-slider\\jquery.nivo.slider-32.pack.js",
       "customOutput": false,
       "type": "Js",
       "config": {
@@ -719,6 +549,206 @@
       "name": "background-3.jpg",
       "type": "Jpg",
       "initialSize": 1177960,
+      "status": "NOT_OPTIMIZED"
+    },
+    "e0c1df99": {
+      "id": "e0c1df99",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\demo\\images\\dev7logo.png",
+      "size": 1930,
+      "name": "dev7logo.png",
+      "type": "Png",
+      "initialSize": 1930,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c0a5c3ae": {
+      "id": "c0a5c3ae",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\demo\\images\\nemo.jpg",
+      "size": 79708,
+      "name": "nemo.jpg",
+      "type": "Jpg",
+      "initialSize": 79708,
+      "status": "NOT_OPTIMIZED"
+    },
+    "c041c49d": {
+      "id": "c041c49d",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\demo\\images\\toystory.jpg",
+      "size": 91573,
+      "name": "toystory.jpg",
+      "type": "Jpg",
+      "initialSize": 91573,
+      "status": "NOT_OPTIMIZED"
+    },
+    "9981e0da": {
+      "id": "9981e0da",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\demo\\images\\up.jpg",
+      "size": 71231,
+      "name": "up.jpg",
+      "type": "Jpg",
+      "initialSize": 71231,
+      "status": "NOT_OPTIMIZED"
+    },
+    "0b20a519": {
+      "id": "0b20a519",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\demo\\images\\walle.jpg",
+      "size": 76610,
+      "name": "walle.jpg",
+      "type": "Jpg",
+      "initialSize": 76610,
+      "status": "NOT_OPTIMIZED"
+    },
+    "f5133ab8": {
+      "id": "f5133ab8",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\themes\\bar\\arrows.png",
+      "size": 824,
+      "name": "arrows.png",
+      "type": "Png",
+      "initialSize": 824,
+      "status": "NOT_OPTIMIZED"
+    },
+    "04cd8af9": {
+      "id": "04cd8af9",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\themes\\bar\\bullets.png",
+      "size": 1281,
+      "name": "bullets.png",
+      "type": "Png",
+      "initialSize": 1281,
+      "status": "NOT_OPTIMIZED"
+    },
+    "3ce2ffe0": {
+      "id": "3ce2ffe0",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\themes\\dark\\arrows.png",
+      "size": 3088,
+      "name": "arrows.png",
+      "type": "Png",
+      "initialSize": 3088,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5e5c1865": {
+      "id": "5e5c1865",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\themes\\dark\\bullets.png",
+      "size": 3146,
+      "name": "bullets.png",
+      "type": "Png",
+      "initialSize": 3146,
+      "status": "NOT_OPTIMIZED"
+    },
+    "209a8248": {
+      "id": "209a8248",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\themes\\default\\arrows.png",
+      "size": 824,
+      "name": "arrows.png",
+      "type": "Png",
+      "initialSize": 824,
+      "status": "NOT_OPTIMIZED"
+    },
+    "320dd614": {
+      "id": "320dd614",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\themes\\default\\bullets.png",
+      "size": 1281,
+      "name": "bullets.png",
+      "type": "Png",
+      "initialSize": 1281,
+      "status": "NOT_OPTIMIZED"
+    },
+    "8c157a57": {
+      "id": "8c157a57",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\themes\\kuhn\\arrows.png",
+      "size": 824,
+      "name": "arrows.png",
+      "type": "Png",
+      "initialSize": 824,
+      "status": "NOT_OPTIMIZED"
+    },
+    "1f605501": {
+      "id": "1f605501",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\themes\\kuhn\\bullets.png",
+      "size": 1281,
+      "name": "bullets.png",
+      "type": "Png",
+      "initialSize": 1281,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ff8c6a02": {
+      "id": "ff8c6a02",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\themes\\light\\arrows.png",
+      "size": 3247,
+      "name": "arrows.png",
+      "type": "Png",
+      "initialSize": 3247,
+      "status": "NOT_OPTIMIZED"
+    },
+    "ff5efbc4": {
+      "id": "ff5efbc4",
+      "pid": "406674c2",
+      "path": "bootplugs\\nivo-slider\\themes\\light\\bullets.png",
+      "size": 3288,
+      "name": "bullets.png",
+      "type": "Png",
+      "initialSize": 3288,
+      "status": "NOT_OPTIMIZED"
+    },
+    "5856a3b6": {
+      "id": "5856a3b6",
+      "pid": "406674c2",
+      "path": "boottheme\\images\\header\\800number.png",
+      "size": 14137,
+      "name": "800number.png",
+      "type": "Png",
+      "initialSize": 14137,
+      "status": "NOT_OPTIMIZED"
+    },
+    "fd5fb634": {
+      "id": "fd5fb634",
+      "pid": "406674c2",
+      "path": "boottheme\\images\\shadow\\shadow-1.png",
+      "size": 5321,
+      "name": "shadow-1.png",
+      "type": "Png",
+      "initialSize": 5321,
+      "status": "NOT_OPTIMIZED"
+    },
+    "703b97e5": {
+      "id": "703b97e5",
+      "pid": "406674c2",
+      "path": "images\\slider-1.jpg",
+      "size": 267428,
+      "name": "slider-1.jpg",
+      "type": "Jpg",
+      "initialSize": 267428,
+      "status": "NOT_OPTIMIZED"
+    },
+    "4aaf816e": {
+      "id": "4aaf816e",
+      "pid": "406674c2",
+      "path": "images\\slider-2.jpg",
+      "size": 77190,
+      "name": "slider-2.jpg",
+      "type": "Jpg",
+      "initialSize": 77190,
+      "status": "NOT_OPTIMIZED"
+    },
+    "6d45a501": {
+      "id": "6d45a501",
+      "pid": "406674c2",
+      "path": "images\\slider-3.jpg",
+      "size": 212519,
+      "name": "slider-3.jpg",
+      "type": "Jpg",
+      "initialSize": 212519,
       "status": "NOT_OPTIMIZED"
     }
   },
